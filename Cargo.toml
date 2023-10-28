@@ -1,0 +1,17 @@
+[package]
+name = "imgread"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+candle = { git = "https://github.com/huggingface/candle.git", version = "0.3.0", package = "candle-core" }
+candle-examples = { git = "https://github.com/huggingface/candle.git", version = "0.3.0" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.3.0" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", version = "0.3.0" }
+clap = "4.4.7"
+hf-hub = "0.3.2"
+image = "*"
+tokenizers = "0.13.4"
